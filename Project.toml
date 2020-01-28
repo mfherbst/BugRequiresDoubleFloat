@@ -1,0 +1,15 @@
+name = "Tester"
+uuid = "374259f6-41b3-11ea-2c9c-6b7e95aa6dd2"
+authors = ["Michael F. Herbst <info@michael-herbst.com>"]
+version = "0.1.0"
+
+[deps]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
+[extras]
+DoubleFloats = "497a8b3b-efae-58df-a0af-a86822472b78"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "DoubleFloats"]
